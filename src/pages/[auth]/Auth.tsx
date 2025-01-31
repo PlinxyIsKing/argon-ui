@@ -181,7 +181,7 @@ export const AuthPage: React.FC<{ mode: "login" | "register" }> = ({
           </span>
         </div>
         <div className="mb-4">
-          <h2 className="text-xl font-semibold text-gray-700">
+          <h2 className="text-center text-xl font-semibold text-gray-700">
             {mode === "login" ? "Sign in to Argon" : "Create your account"}
           </h2>
         </div>
